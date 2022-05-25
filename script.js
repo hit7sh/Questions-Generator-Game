@@ -1,7 +1,8 @@
 function temp() {
 	window.alert("You Clicked Home")
+	return;
 }
-// This is a comment by me.
+
 var modal = getElementById('id_1');
 window.onclick = function (event) {
 	if (event.target == modal) {
